@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.ListPatient"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:textSize="23dp"
+        android:text="Search Patient By Aadhar Number or Name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:gravity="center"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Patient Aadhar Number or Name"
+        android:id="@+id/userpatientsearchname"/>
+
+    <ImageView
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:src="@android:drawable/ic_btn_speak_now"/>
+
+    <Button
+        android:id="@+id/patientsearchsubmit"
+        android:text="Search Patient"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/SearchPatientList"></ListView>
+
+</LinearLayout>

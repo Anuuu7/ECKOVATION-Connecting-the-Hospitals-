@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.PatientHome">
+
+    <Button
+        android:id="@+id/patientlistmedicalrecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Medical Records"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/patientupdateprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/useraddfamily"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Family Contacts"/>
+
+    <Button
+        android:id="@+id/usereditfamily"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Family Contacts"/>
+
+    <Button
+        android:id="@+id/userviewusers"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for Near By"/>
+
+    <Button
+        android:id="@+id/emergencyalert"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Alert"/>
+
+    <Button
+        android:id="@+id/videolink"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Self Protection"/>
+
+    <Button
+        android:id="@+id/userlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>

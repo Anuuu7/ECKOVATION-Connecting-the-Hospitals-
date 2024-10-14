@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/patientregistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Register"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/patientlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/hospitalregistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Register"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/hospitallogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>

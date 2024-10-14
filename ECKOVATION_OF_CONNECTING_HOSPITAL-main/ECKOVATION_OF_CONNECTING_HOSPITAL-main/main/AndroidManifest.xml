@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileapptotrackmedicalrecords">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileAppToTrackMedicalRecords">
+
+        <activity android:name=".view.UpdateProfile" android:exported="false" />
+        <activity
+            android:name=".view.AddMedicalRecord"
+            android:exported="false" />
+        <activity
+            android:name=".view.AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".view.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".view.HospitalHome"
+            android:exported="false" />
+        <activity
+            android:name=".view.HospitalLogin"
+            android:exported="false" />
+        <activity
+            android:name=".view.HospitalRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".view.ListHospital"
+            android:exported="false" />
+        <activity
+            android:name=".view.ListMedicalRecord"
+            android:exported="false" />
+        <activity
+            android:name=".view.ListPatient"
+            android:exported="false" />
+        <activity
+            android:name=".view.PatientHome"
+            android:exported="false" />
+        <activity
+            android:name=".view.PatientLogin"
+            android:exported="false" />
+        <activity
+            android:name=".view.PatientRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewHospital"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewMedicalRecord"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewPatient"
+            android:exported="false" />
+
+        <activity android:name=".view.AddHospital" />
+        <activity android:name=".view.AddPolice" />
+        <activity android:name=".view.ListUsers" />
+        <activity android:name=".view.ViewUser" />
+        <activity android:name=".view.AddFamily" />
+        <activity android:name=".view.AdminListUser" />
+        <activity android:name=".view.EditFamily"></activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

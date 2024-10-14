@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.AdminHome">
+
+    <Button
+        android:id="@+id/adminlisthospitals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Hospitals"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/addhospital"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Hospital"/>
+
+    <Button
+        android:id="@+id/addpolice"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Police"/>
+
+    <Button
+        android:id="@+id/adminviewusers"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Hospitals/Polices"/>
+
+    <Button
+        android:id="@+id/adminlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>
